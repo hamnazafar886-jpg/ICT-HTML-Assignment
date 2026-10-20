@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feedback Form</title>
+</head>
+<body>
+
+    <h1>Feedback Form</h1>
+
+    <form action="thanks.html" method="get">
+
+        Full Name: <input type="text" name="fullname" required>
+        <br><br>
+
+        Email: <input type="email" name="email" required>
+        <br><br>
+
+        Gender:
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <br><br>
+
+        Department:
+        <select name="department">
+            <option>AI</option>
+            <option>CS</option>
+            <option>SE</option>
+            <option>EE</option>
+        </select>
+        <br><br>
+
+        Interests:
+        <input type="checkbox" name="interest" value="Web"> Web
+        <input type="checkbox" name="interest" value="AI"> AI
+        <input type="checkbox" name="interest" value="Games"> Games
+        <br><br>
+
+        Comments:
+        <br>
+        <textarea name="comments" rows="4" cols="30"></textarea>
+        <br><br>
+
+        <input type="submit" value="Send">
+
+    </form>
+
+</body>
+</html>
